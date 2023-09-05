@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-y: hidden;
+    background-image: url("TempBackground.jpg");
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.size{
+    font-size: 30px;
+}
+.converter{
+    padding: 40px;
+    font-size: 40px;
+    line-height: 60px;
+}
+h2{
+    padding-bottom: 60px;
+}
+button{
+    padding: 10px;
+    background-color: gray;
+}
